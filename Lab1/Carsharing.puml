@@ -57,8 +57,8 @@ entity "$setBold("Car")" as car {
     * isInUse : bool
 }
 
-client::id }-- contract::client_id : (1, N)
-contract::car_id }-- car::id : (1, N)
+contract::client_id }-- client::id
+contract::car_id }-- car::id
 
 legend right
 $setBold("Условные обозначения:")
